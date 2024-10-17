@@ -6,6 +6,7 @@ body {
 }
 
 .footnote-link {
+    vertical-align: super;
     text-decoration: underline dotted;
     color: #0000FF;
     cursor: pointer;
@@ -40,7 +41,6 @@ body {
     padding: 10px;
     margin-top: 10px;
     border-radius: 4px;
-    vertical-align: super;
 }
 
 .footnote:target {
