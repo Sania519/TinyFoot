@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Improved CSS-only Footnote</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <p>
+        This is a paragraph with an 
+        <a href="#footnote1" class="footnote-link" data-summary="CSS is awesome">improved CSS-only footnote</a>
+        implementation.
+    </p>
+
+    <div id="footnote1" class="footnote">
+        <div class="footnote-content">
+            This footnote system is implemented using only HTML and CSS. 
+            It demonstrates how powerful CSS can be for creating interactive elements 
+            without relying on JavaScript. The footnote appears below when clicked,
+            and a summary is shown on hover.
+        </div>
+        <a href="#" class="footnote-close">Close</a>
+    </div>
+
+    <p>
+        Here's another paragraph with a different 
+        <a href="#footnote2" class="footnote-link" data-summary="HTML5 rocks">footnote example</a>
+        to show how it works.
+    </p>
+
+    <div id="footnote2" class="footnote">
+        <div class="footnote-content">
+            This is another footnote demonstrating the flexibility of this system. 
+            You can have multiple footnotes on a page, each with its own summary and detailed content.
+            Clicking on the footnote link reveals this detailed explanation below the text.
+        </div>
+        <a href="#" class="footnote-close">Close</a>
+    </div>
+
+    <p>
+        The footnotes in this example appear directly below the text when clicked,
+        providing immediate context and improved readability.
+    </p>
+</body>
+</html>
