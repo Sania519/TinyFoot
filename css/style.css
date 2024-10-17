@@ -47,7 +47,7 @@ body {
 }
 
 .footnote::before {
-    content: "Footnote:";
+    content: attr(id);
     font-weight: bold;
     display: block;
     margin-bottom: 5px;
